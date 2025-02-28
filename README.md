@@ -1,5 +1,5 @@
 # CSC209H5-Winter-2024-Student-UNIX-Shell
-The program file is named `Project Student UNIX Shell/tsh.c`
+The program file is named `Project-Student-Bash-Shell/tsh.c`
 
 This project from CSC258, Fall 2024, showcases my ability to write robust C systems code for UNIX.
 
