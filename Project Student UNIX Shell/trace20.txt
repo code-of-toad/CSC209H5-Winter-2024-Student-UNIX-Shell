@@ -1,0 +1,55 @@
+#
+# trace19.txt - Error handling for the pipe operator
+#
+# NOTE: A newline has been artificially inserted WITHIN THE TRACEFILE at the end of each command output.
+
+/bin/echo
+
+/bin/echo -e tsh\076 \074 infile
+< infile
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/cat infile
+/bin/cat infile
+
+/bin/echo
+
+/bin/echo -e tsh\076 \076 outfile
+< outfile
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/cat outfile
+/bin/cat outfile
+
+/bin/echo
+
+/bin/echo -e tsh\076 \174 somefile
+| somefile
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/cat somefile
+/bin/cat somefile
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/ls \076 dir_list \174 grep e
+/bin/ls > dir_list | grep e
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/cat dir_list
+/bin/cat dir_list
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/ls \174 /bin/grep aaa \174 /bin/grep bbb \074 dir_list2
+/bin/ls | /bin/grep aaa | /bin/grep bbb < dir_list2
+
+/bin/echo
+
+/bin/echo -e tsh\076 /bin/cat dir_list2
+/bin/cat dir_list2
+
