@@ -1,0 +1,17 @@
+*.swp
+Makefile
+makefile
+README
+my*
+sdriver.pl
+trace0[1-9]*
+trace1[0-7]*
+outfile*
+infile*
+tsh
+tsh_BACKUP.c
+tshref*
+testing_dir
+
+dan*
+a.out
