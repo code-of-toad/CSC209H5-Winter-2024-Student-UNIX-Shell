@@ -1,7 +1,7 @@
 # CSC209H5-Winter-2024-Student-UNIX-Shell
 The program file of interest: `Project-Student-Bash-Shell/tsh.c`
 
-This project from CSC209H5, Fall 2024, showcases my ability to write robust C systems code for UNIX.
+This project from CSC209H5, Winter 2024, showcases my ability to write robust C systems code for UNIX.
 
 In particular:
 
