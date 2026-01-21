@@ -1,4 +1,4 @@
-# CSC209H5-Winter-2024-Student-UNIX-Shell
+# TSH: A Tiny Shell with Job Control
 
 A fully functional UNIX shell implementation written in C, demonstrating advanced systems programming concepts including process management, job control, signal handling, I/O redirection, and piping.
 
